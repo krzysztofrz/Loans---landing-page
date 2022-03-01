@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --main-color: rgb(1, 36, 186);
+    --accent-color: rgb(9, 216, 98);
+    --text-color: rgb(53, 53, 53);
+    font-family: sans-serif;
+
+}
+
+.con{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/images/background.jpg");
+    background-position: center;
+    background-size: cover ;
+}
+
+
+.header{
+    height: 80px;
+    background: aquamarine;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    color: var(--text-color)
+
+}
+
+.logo-link{
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--text-color);
+    padding:  5px 10px
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+
+
+}
+.nav-item a{
+    padding: 5px;
+    margin: 0 20px  ;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+i {
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    /*content: "\f0c2";*/
+    font-size: 50px;
+}
+
+
+.main{
+    border : 2px solid red;
+    padding: 0 15%;
+    display: flex;
+    font-weight: 700;
+
+}
+.main-banner{
+   flex-grow: 1;
+}
+.main-subtitle{
+    font-size: 1.5rem;
+    color: var(--accent-color);
+
+
+}
+.main-title{
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+.offers{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.offer{
+    margin-right: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+
+}
+.offer i {
+    color: var(--accent-color);
+    font-size: 40px;
+}
+/*.offer-cloud">*/
+/*.a-solid fa-cloud"></i>*/
+/*.offer-text">Online application</p>*/
+
+.main-form{
+    border: 1px green solid;
+    flex-grow: 1;
+    background: white;
+    padding: 0 30px ;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form-title{
+    font-size: 2rem;
+    margin: 30px 0;
+}
+.form label{
+    font-size: 0.8em;
+    margin-bottom: 12px;
+}
+.form input{
+    margin-bottom: 12px;
+    border: none;
+    border-bottom: 1px solid var(--text-color);
+}
