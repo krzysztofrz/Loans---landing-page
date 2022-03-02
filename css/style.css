@@ -24,7 +24,6 @@
 
 .header{
     height: 80px;
-    background: aquamarine;
     padding: 0 15%;
     display: flex;
     align-items: center;
@@ -38,7 +37,7 @@
     font-size: 2.5rem;
     text-decoration: none;
     font-weight: 700;
-    color: var(--text-color);
+    color: var(--main-color);
     padding:  5px 10px
 }
 
@@ -67,7 +66,6 @@ i {
 
 
 .main{
-    border : 2px solid red;
     padding: 0 15%;
     display: flex;
     font-weight: 700;
@@ -85,6 +83,7 @@ i {
 .main-title{
     font-size: 4rem;
     margin-bottom: 50px;
+    color: var(--main-color)
 }
 .offers{
     display: flex;
@@ -107,8 +106,7 @@ i {
 /*.offer-text">Online application</p>*/
 
 .main-form{
-    border: 1px green solid;
-    flex-grow: 1;
+    flex-grow: 0.4;
     background: white;
     padding: 0 30px ;
 
@@ -129,5 +127,22 @@ i {
 .form input{
     margin-bottom: 12px;
     border: none;
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid #c2bcbc;
+    line-height: 35px;
 }
+.form input::placeholder{
+    color: #c2bcbc;
+
+}
+.form-button{
+    background: var(--accent-color);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 60%;
+
+}apply 
